@@ -1,6 +1,6 @@
-#[Derive(Debug)]
+#[derive(Debug)]
 struct Structure(i32);
-#[Derive(Debug)]
+#[derive(Debug)]
 struct Deep(Structure);
 fn main(){
   println!("{} days",31);
